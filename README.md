@@ -26,7 +26,6 @@ Borealis is an automation ecosystem developed in **Python**, designed to optimiz
 
 ![Velocidaad](https://github.com/user-attachments/assets/685fd86e-7d10-42be-8c61-4b45d15276f4)
 
-video: https://youtu.be/iJqajlZYnfY
 
 ---
 **Contact:** https://www.linkedin.com/in/joaquin-canales/
