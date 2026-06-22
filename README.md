@@ -22,19 +22,15 @@ Borealis is an automation ecosystem developed in **Python**, designed to optimiz
 * **Accuracy:** Elimination of human error during data entry into the SQL database.
 * **Scalability:** The bot is capable of processing **1,000** records per hour.
 
-##  Interface Demonstration
+## Interface Demonstration
 
 | 1. Course Upload (ZIP Validation) | 2. Deployment Process (Real-time tracking) |
 |---|---|
-| !(<img width="1050" height="968" alt="image" src="https://github.com/user-attachments/assets/ddd4733b-5ae5-4140-9701-c9a6813f8f93" />
-) | !(<img width="1050" height="488" alt="image" src="https://github.com/user-attachments/assets/4251ce13-9bf7-4389-8369-72dda2ac35cc" />)
- |
+| <img src="https://github.com/user-attachments/assets/ddd4733b-5ae5-4140-9701-c9a6813f8f93" alt="Course Upload" width="500"> | <img src="https://github.com/user-attachments/assets/4251ce13-9bf7-4389-8369-72dda2ac35cc" alt="Deployment Progress" width="500"> |
 
 | 3. Successful Completion | 4. Course History & Logs |
 |---|---|
-| !<img width="1050" height="678" alt="image" src="https://github.com/user-attachments/assets/e6ca3688-7e4c-41fa-a37e-3c63e5bf8f66" />
- | !<img width="1050" height="701" alt="image" src="https://github.com/user-attachments/assets/760ebb9a-89a1-4a19-b544-0e80e4883076" />
- |
+| <img src="https://github.com/user-attachments/assets/e6ca3688-7e4c-41fa-a37e-3c63e5bf8f66" alt="Successful Completion" width="500"> | <img src="https://github.com/user-attachments/assets/760ebb9a-89a1-4a19-b544-0e80e4883076" alt="Course History & Logs" width="500"> |
 
 ---
 **Contact:** https://www.linkedin.com/in/joaquin-canales/
