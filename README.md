@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/borealis-banner.png" alt="Project Borealis Banner" width="100%" />
+  <img src="<img width="2172" height="724" alt="Banner Borealis" src="https://github.com/user-attachments/assets/e79b185b-b23c-4d5f-a285-0d242db30685" />" alt="Project Borealis Banner" width="100%" />
 </p>
 
 <h1 align="center">Project Borealis</h1>
