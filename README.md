@@ -1,36 +1,121 @@
-# Project Borealis: Automation and Data Management
+<p align="center">
+  <img src="assets/borealis-banner.png" alt="Project Borealis Banner" width="100%" />
+</p>
 
-> **Note:** This project is closed-source for security and intellectual property reasons. The architecture, utilized technologies, and achieved results are detailed below.
+<h1 align="center">Project Borealis</h1>
 
-## Project Description
-Borealis is an automation ecosystem developed in **Python**, designed to optimize the workflow in course creation. The system handles repetitive tasks, validates data, and ensures real-time information integrity. It drastically optimizes and reduces processing times and operational costs.
+<p align="center">
+  <strong>Enterprise Course Automation System</strong>
+</p>
 
-## Tech Stack
-* **Core Language:** Python 3.x
-* **Automation:** Selenium / Playwright / PyAutoGUI
-* **Database:** SQL (Record management, activity logging, and data persistence).
-* **Data Processing:** JSON.
+<p align="center">
+  A private automation ecosystem built to streamline course validation, deployment, tracking, and batch processing.
+</p>
 
-## Architecture and Features
-1. **Automation Module:** Execution of scripts for efficient navigation and data extraction.
-2. **Data Layer (SQL):** Table structure design to store process states and prevent task duplication.
-3. **Exception Handling:** Robust logging system to identify errors without halting bot execution.
-4. **Security:** Implementation of environment variables for credential protection.
-
-## Results and Impact
-* **Time Savings:** A **98.8%** reduction in time dedicated to manual tasks. In other words, the workload was reduced from **one week** to just **20 minutes**.
-* **Accuracy:** Elimination of human error during data entry into the SQL database.
-* **Scalability:** The bot is capable of processing **1,000** records per hour.
-
-## Interface Demonstration
-
-| 1. Course Upload (ZIP Validation) | 2. Deployment Process (Real-time tracking) |
-|---|---|
-| <img src="https://github.com/user-attachments/assets/ddd4733b-5ae5-4140-9701-c9a6813f8f93" alt="Course Upload" width="500"> | <img src="https://github.com/user-attachments/assets/4251ce13-9bf7-4389-8369-72dda2ac35cc" alt="Deployment Progress" width="500"> |
-
-| 3. Successful Completion | 4. Course History & Logs |
-|---|---|
-| <img src="https://github.com/user-attachments/assets/e6ca3688-7e4c-41fa-a37e-3c63e5bf8f66" alt="Successful Completion" width="500"> | <img src="https://github.com/user-attachments/assets/760ebb9a-89a1-4a19-b544-0e80e4883076" alt="Course History & Logs" width="500"> |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Project-blue?style=for-the-badge" alt="Python Badge" />
+  <img src="https://img.shields.io/badge/Automation-System-0A84FF?style=for-the-badge" alt="Automation Badge" />
+  <img src="https://img.shields.io/badge/Playwright-Selenium-00C2A8?style=for-the-badge" alt="Playwright Selenium Badge" />
+  <img src="https://img.shields.io/badge/SQL-Tracking-1E90FF?style=for-the-badge" alt="SQL Badge" />
+  <img src="https://img.shields.io/badge/Status-Private%20Case%20Study-111827?style=for-the-badge" alt="Private Case Study Badge" />
+</p>
 
 ---
-**Contact:** https://www.linkedin.com/in/joaquin-canales/
+
+## Overview
+
+**Project Borealis** is a Python-based automation ecosystem designed to optimize and accelerate the course creation and deployment workflow.
+
+It was built to replace repetitive, error-prone manual operations with a structured system capable of:
+
+- validating incoming course packages
+- processing large batches efficiently
+- automating deployment tasks
+- tracking execution state in SQL
+- logging failures and preserving recoverability
+
+Rather than being a simple script, Borealis functions as a **workflow automation system** focused on reliability, control, and operational speed.
+
+---
+
+## The Problem
+
+Before Borealis, the course deployment workflow relied heavily on manual work.
+
+This created several challenges:
+
+- repetitive and time-consuming processing
+- inconsistent data entry
+- limited visibility into execution status
+- difficult recovery after failed runs
+- poor scalability for batch operations
+
+In practice, large workloads could take **up to a full working week** to complete manually.
+
+---
+
+## The Solution
+
+Borealis was designed to automate that workflow end-to-end.
+
+It introduces:
+
+- automated course validation
+- state-aware deployment execution
+- SQL-backed progress tracking
+- duplicate prevention
+- fault isolation and structured logging
+- batch processing support
+- a front-end interface for operational control
+
+The result is a much faster, safer, and more scalable deployment process.
+
+---
+
+## Key Impact
+
+| Metric | Result |
+|--------|--------|
+| Processing time reduction | **98.8%** |
+| Workflow duration | **~1 week → ~20 minutes** |
+| Batch throughput | **~1,000 records/hour** |
+| Validation | **Automated** |
+| Tracking | **SQL-backed** |
+| Recovery | **Logged and resumable** |
+
+---
+
+## Core Features
+
+### Automated Validation
+Borealis validates incoming course packages before deployment, reducing manual review and catching issues early in the pipeline.
+
+### Deployment Automation
+The system automates key interactions required to publish and configure course content on the target platform.
+
+### SQL State Tracking
+Execution state is stored in a SQL layer, enabling visibility, safer retries, and duplicate prevention.
+
+### Batch Processing
+Borealis is designed to process large volumes of data efficiently, allowing high-throughput automation at scale.
+
+### Fault Tolerance
+Individual failures are isolated and logged, allowing the workflow to continue without collapsing the full batch.
+
+### Operational Interface
+A front-end dashboard provides visibility into uploads, deployment progress, historical processing, and execution logs.
+
+### Secure Configuration
+Sensitive data and credentials are separated through environment-based configuration and are not exposed in the repository.
+
+---
+
+## Workflow
+
+```mermaid
+flowchart LR
+    A[Course Package Upload] --> B[Validation]
+    B --> C[Data Processing]
+    C --> D[Automation Engine]
+    D --> E[SQL Tracking]
+    E --> F[Deployment Completed]
